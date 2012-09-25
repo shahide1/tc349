@@ -1,0 +1,9 @@
+I think that Michigan State University's home website, msu.edu, is very well designed and organized. They incorporate many coding languages and techniques, such as HTML, CSS, Flash, and graphic design to make their site not only aesthetically pleasing, but also to function smoothly and seamlessly.  
+
+The first aspect of msu.edu that I noticed to be very benefical to me as the user was that they used drop down menus for each of their menu/header tabs.  This site seems to have a lot of pages, and providing the user with a list of choices related to the section they are choosing helps them to navigate the site more easily.  Furthermore, they don't just use the text 'Home' for the home tab, they actually use a little house icon.  Even something this small and simple adds style to the site, making it more inviting to the user.
+
+I really enjoy their scrolling images that take the user through current events and information on the site.  These images include links to more information on what they are advertising. I found this to be very inviting as a user coming to their site. Not only do the images scroll, but the text within the images scrolls a few moments later, adding 'a little extra' to the effect.
+
+Additionally, msu.edu has a block section where they have a 'MSUVIEW', 'MSUNEWS', and 'EVENTS' section with more information.  I specifically found the 'MSUVIEW' feature to be the most intruiging because it allows you to scroll through handful of videos about various, fun events related to MSU.  
+
+Overall, I thought Michigan State University's home webpage flows well, enables easy navigation, is stylish and very well executed.  Well done, MSU!
