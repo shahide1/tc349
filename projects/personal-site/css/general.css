@@ -1,0 +1,24 @@
+h1 { 
+ 	font-family: Helvetica;
+	text-align:center;
+	text-decoration:underline;
+}
+
+body{
+	background-color:#9FF
+}
+
+table.links{
+	margin-left: auto;
+margin-right: auto;
+}
+
+table.holdings{
+	border:medium;
+	border-color:#000;
+}
+
+td.header{
+	font:bold;
+}
+img.center {   display: block;   margin-left: auto;   margin-right: auto;}
