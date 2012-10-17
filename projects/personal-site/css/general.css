@@ -14,7 +14,15 @@ h1 {
 h3{
 	font-family:Tahoma, Geneva, sans-serif;
 }
-div{
+
+h2.stocks{
+		margin-left: 70px;
+}
+.wrap{
+	margin: 0 auto;
+	width: 1200px;
+}
+header{
 	margin-left: 20px;
 	margin-right: 20px;
 	text-align:center;
@@ -22,6 +30,37 @@ div{
 ul.links{
 	background: #0C0;
  	list-style-type:none;
+}
+
+#intro{
+	width: 675px;
+	margin-right: 25px;
+	float: left;
+	
+}
+
+#bob{
+	width: 550px;
+	margin-right: 25px;
+	float: left;
+}
+
+.george{
+	width: 575px;
+	float: left;
+}
+
+aside{
+	width: 400px;
+	float: left;
+}
+
+footer{
+	clear: both;
+	border-top: 2px groove #666;
+	text-align:center;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 li.linklist
@@ -33,7 +72,7 @@ li.linklist
  }
 img.center {   display: block;   margin-left: auto;   margin-right: auto;}
 
-#welcome {
+.welcome {
 	background-color:#DDF0FF;
 	padding: 5px;
 	margin: 10px 20px 10px 20px;
@@ -50,6 +89,8 @@ body{
 table.holdings{
 	border:medium;
 	border-color:#000;
+	padding-bottom: 8px;
+	margin-left: 120px;
 }
 
 td.header{
