@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>JQuery Example 1</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+      
+$(document).ready(function(){
+var myQuote = $('#my_quote');
+myQuote.hide();
+$('.button').click(function(){
+myQuote.show(500);
+});
+});
+    </script>
+
+    
+    </script>
+</head>
+<body>
+<p><a href="#" class="button">Click here to show hidden text</a></p>
+
+<blockquote id="my_quote"><p>THis is a hidden block quote that is revealed when you click the link!</p></blockquote>
+</body>
+</html>
