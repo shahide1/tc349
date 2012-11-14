@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="touch-icons/apple-touch-icon-57x57.png">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link rel="stylesheet" href="ratchet.css">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+    <!-- Intro paragraph styles. Delete once you start using this page -->
+    <style type="text/css">
+        .welcome {
+          line-height: 1.5;
+          color: #555;
+        }
+    </style>
+
+  </head>
+  <body>
+
+  <!-- Make sure all your bars are the first things in your <body> -->
+<header class="bar-title">
+  <a class="button">
+    My Great Mobile Site
+  </a>
+  <ul class="segmented-controller">
+    <li class="active">
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">Services</a>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+        <li>
+      <a href="#">Contact Us</a>
+    </li>
+  </ul>
+</header>
+
+  <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+  <div class="content">
+    <div class="content-padded">
+    <center>
+    <a class="button">Navigation</a>
+	<a class="button">Navigation</a>
+	<a class="button">Navigation</a></center>
+<br>
+      <p class="welcome">        <h2>Overview of Services</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p><br>
+        <h2>Our Pricing</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p><br>
+        <h2>Tell Us About You!</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and typesetting industry. .</p><br>
+    </div>
+
+<form>
+<h3>Personal Info</h3><br>
+  <div class="input-group">
+    <div class="input-row">
+      <label>Name</label>
+      <input type="text" placeholder="Enter your name">
+    </div>
+    <div class="input-row">
+      <label>Address</label>
+      <input type="email" placeholder="Enter your address">
+    </div>
+    <div class="input-row">
+      <label>Phone</label>
+      <input type="text" placeholder="Enter your number">
+    </div>
+  </div><br>
+  <h3>Billing Info</h3><br>
+    <div class="input-group">
+    <div class="input-row">
+      <label>Name</label>
+      <input type="text" placeholder="Enter your name">
+    </div>
+    <div class="input-row">
+      <label>Address</label>
+      <input type="email" placeholder="Enter your address">
+    </div>
+    <div class="input-row">
+      <label>Phone</label>
+      <input type="text" placeholder="Enter your number">
+    </div>
+        <div class="input-row">
+      <label>Card Number</label>
+      <input type="text" placeholder="Enter your credit card">
+    </div>
+  </div>      
+  <p><strong>Warning!</strong> You currently have missing information.</p><br>
+  <label class="checkbox">
+            <input type="checkbox">
+            I agree to the terms and conditions </label><br><br>
+  <a class="button button-block">Submit</a>
+</form>
+
+  </div>
+
+  </body>
+</html>
