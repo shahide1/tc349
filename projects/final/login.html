@@ -2,19 +2,14 @@
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Current Stocks</title>
+    <title>Login to Your Account</title>
     <link rel="stylesheet" href="css/general.css" type="text/css">
-    <script type="text/javascript" src="js/tip.js" charset="utf-8">
+    <script type="text/javascript" src="js/login.js" charset="utf-8">
 	</script>
 </head>
 <body>
 	<div class="wrap">
     <div class="welcome">
-          <a class="topleft">Need help? Email us at bobaktrader@gmail.com</a>
-    	  <a class="topright" href="login.html">Log In</a>
-   		  <a class="topright register" href="register.html">Register</a>
-    	  <a class="social" href="http://www.facebook.com"><img src="images/fb.jpg" alt="" /></a>
-    	  <a class="social" href="http://www.twitter.com"><img src="images/twitter.jpg" alt="" /></a>
     	<header>
             <ul class="links">
             <li class="linklist"><h3><a class="head" href="index.html">Home</a></h3></li>
@@ -26,10 +21,24 @@
             <li class="linklist"><h3><a class="head" href="contact.html">Contact Us</a></h3></li>
             </ul>
     </header>
-    <section class="contactus">
-	<h1>Contact Us</h1>
-    <p class="contactus">Please send us an email to bobaktrader@gmail.com and let us know if you have any question or comments!</p>
-    </section>
+    <section class="subscribe">
+	<h1>Login to Your Account</h1>
+    <font face="verdana,arial" size=-1>
+<center><table cellpadding='2'>
+		<tr><td bgcolor="blue"><table cellpadding='0' cellspacing='0' border='0' width='100%'><tr><td bgcolor="blue" align=center style="padding:2;padding-bottom:4"><b>				        <font size=-1 color="white" face="verdana,arial"><b>Enter Your Username and Password</b></font></th></tr>
+		<tr><td bgcolor="white" style="padding:5"><br>
+		<form name="login" id="login" method="POST">
+	<center><table>
+<tr><td><font face="verdana,arial" size=-1>Username:</td><td><input type="username" id="usernameBox" onkeypress="searchKeyPress(event);" name="user"></td></tr>
+<tr><td><font face="verdana,arial" size=-1>Password:</td><td><input type="password" id="passwordBox" onkeypress="searchKeyPress(event);" name="pswrd"></td></tr>
+<tr><td><font face="verdana,arial" size=-1>&nbsp;</td>
+<td><font face="verdana,arial" size=-1><input type="button" id="submitButton" onclick="check(this.form);" value="submit"></td></tr>
+</table></center>
+<input type='text' style='visibility: hidden' name='oDiscard'>
+</form>
+</td></tr></table></td></tr></table><br>
+Not signed up?  <a href="register.html">Register!</a>
+        </section>
     <footer>
      	<a class="footershare">Share us on</a><a class="facebook" href="http://www.facebook.com"><img src="images/fb.jpg" alt="" /></a>
     	<a class="twitter" href="http://www.twitter.com"><img src="images/twitter.jpg" alt="" /></a>
@@ -39,7 +48,6 @@
         <a class="footerlinks" href="login.html">Log In</a>
         <p class="copyright">&copy; 2012 Option Action Pros - All Rights Reserved</p>
     </footer>
-    </section>
     </div>
     </div>
 </body>

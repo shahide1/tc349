@@ -2,20 +2,15 @@
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Current Stocks</title>
+    <title>Subscriber Forum</title>
     <link rel="stylesheet" href="css/general.css" type="text/css">
-    <script type="text/javascript" src="js/tip.js" charset="utf-8">
+    <script type="text/javascript" src="js/forum.js" charset="utf-8">
 	</script>
 </head>
 <body>
 	<div class="wrap">
-    <div class="welcome">
-          <a class="topleft">Need help? Email us at bobaktrader@gmail.com</a>
-    	  <a class="topright" href="login.html">Log In</a>
-   		  <a class="topright register" href="register.html">Register</a>
-    	  <a class="social" href="http://www.facebook.com"><img src="images/fb.jpg" alt="" /></a>
-    	  <a class="social" href="http://www.twitter.com"><img src="images/twitter.jpg" alt="" /></a>
-    	<header>
+        <div class="welcome">
+         <header>
             <ul class="links">
             <li class="linklist"><h3><a class="head" href="index.html">Home</a></h3></li>
             <li class="linklist"><h3><a class="head" href="forum.html">Forum</a></h3></li>
@@ -25,12 +20,22 @@
             <li class="linklist"><h3><a class="head" href="portfolio.html">About</a></h3></li>
             <li class="linklist"><h3><a class="head" href="contact.html">Contact Us</a></h3></li>
             </ul>
-    </header>
-    <section class="contactus">
-	<h1>Contact Us</h1>
-    <p class="contactus">Please send us an email to bobaktrader@gmail.com and let us know if you have any question or comments!</p>
-    </section>
-    <footer>
+        </header>
+        <section class="forum">
+        <h1>Subscriber Forum</h1>
+    	<section class="form">
+			<form name="input" class="forum" action="js/forum.php" onsubmit="return validateForm();" method="post">
+				Username:<br>
+				<input type="text" name="user"><br><br>Post Discussion: <br>
+				<textarea id="editor" name="editor" rows="5" cols="30"></textarea><br><br>
+				<input type="submit" value="submit" />
+			</form>
+		</section>
+		<section class="thread">
+		</br><center><a href="javascript:void(0);" onclick="PopupCenter('forum.txt', 'DiscussionThread',1200,800);">View Discussion Threads</a><center>
+		</section>
+        </section>
+        <footer>
      	<a class="footershare">Share us on</a><a class="facebook" href="http://www.facebook.com"><img src="images/fb.jpg" alt="" /></a>
     	<a class="twitter" href="http://www.twitter.com"><img src="images/twitter.jpg" alt="" /></a>
         <a class="footerlinks" href="subscribe.html">Subscribe</a>
@@ -38,9 +43,8 @@
         <a class="footerlinks" href="contact.html">Contact Us</a>
         <a class="footerlinks" href="login.html">Log In</a>
         <p class="copyright">&copy; 2012 Option Action Pros - All Rights Reserved</p>
-    </footer>
-    </section>
-    </div>
+    	</footer>
+        </div>
     </div>
 </body>
 </html>

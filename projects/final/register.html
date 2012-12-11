@@ -2,19 +2,14 @@
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Current Stocks</title>
+    <title>Create An Account</title>
     <link rel="stylesheet" href="css/general.css" type="text/css">
-    <script type="text/javascript" src="js/tip.js" charset="utf-8">
+    <script type="text/javascript" src="js/register.js" charset="utf-8">
 	</script>
 </head>
 <body>
 	<div class="wrap">
     <div class="welcome">
-          <a class="topleft">Need help? Email us at bobaktrader@gmail.com</a>
-    	  <a class="topright" href="login.html">Log In</a>
-   		  <a class="topright register" href="register.html">Register</a>
-    	  <a class="social" href="http://www.facebook.com"><img src="images/fb.jpg" alt="" /></a>
-    	  <a class="social" href="http://www.twitter.com"><img src="images/twitter.jpg" alt="" /></a>
     	<header>
             <ul class="links">
             <li class="linklist"><h3><a class="head" href="index.html">Home</a></h3></li>
@@ -26,10 +21,14 @@
             <li class="linklist"><h3><a class="head" href="contact.html">Contact Us</a></h3></li>
             </ul>
     </header>
-    <section class="contactus">
-	<h1>Contact Us</h1>
-    <p class="contactus">Please send us an email to bobaktrader@gmail.com and let us know if you have any question or comments!</p>
-    </section>
+    <section class="subscribe">
+	<h1>Create Your Account</h1>
+    <form class="registerform" name="signup" onsubmit="return register();" metho="POST">
+    	<div>Username  <input class="rega" type="text" name="username"><br>
+        Password <input class="rega2"type="text" name="password"><br><br>    </div>      
+       <div> <input type="submit" value="submit"/> </div>
+    </form>
+        </section>
     <footer>
      	<a class="footershare">Share us on</a><a class="facebook" href="http://www.facebook.com"><img src="images/fb.jpg" alt="" /></a>
     	<a class="twitter" href="http://www.twitter.com"><img src="images/twitter.jpg" alt="" /></a>
@@ -39,7 +38,6 @@
         <a class="footerlinks" href="login.html">Log In</a>
         <p class="copyright">&copy; 2012 Option Action Pros - All Rights Reserved</p>
     </footer>
-    </section>
     </div>
     </div>
 </body>
